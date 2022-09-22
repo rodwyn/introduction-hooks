@@ -9,8 +9,6 @@ export const FormWithCustomHook = () => {
       password: ''
     }
   );
-  
-  
 
   return (
   <>
@@ -41,7 +39,6 @@ export const FormWithCustomHook = () => {
     <button
       onClick={ onResetForm }
       className="btn btn-primary mt-2">Clear</button>
-  </>
-    
+  </>    
   )
 }
