@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { FocusScreen } from './04-useRef/FocusScreen'
+import { MemoHook } from './06-memos/MemoHook'
+import { Memorize } from './06-memos/Memorize'
 
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <FocusScreen />
+    <MemoHook />
   </React.StrictMode>
 )
