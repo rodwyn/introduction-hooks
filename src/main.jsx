@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { MemoHook } from './06-memos/MemoHook'
-import { Memorize } from './06-memos/Memorize'
+import { CallbackHook } from './06-memos/CallbackHook'
 
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <MemoHook />
+    <CallbackHook />
   </React.StrictMode>
 )
