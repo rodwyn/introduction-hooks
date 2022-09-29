@@ -10,11 +10,11 @@ export const LoginPage = () => {
         <hr />
         <button
           className="btn btn-primary"
-          onClick={() => setUser({ name: 'abc', id: 123, mail: 'rod@gmail.com'})}
+          onClick={() => setUser({ name: 'Rodwyn', id: 123, mail: 'rod@gmail.com'})}
         >
           Set User
         </button>
-        <pre>
+        <pre aria-label="json-data">
           { JSON.stringify(user)}
         </pre>
       </>

@@ -4,7 +4,6 @@ export const Message = () => {
   useEffect(() => {
     const onMouseMove = ({x,y}) => {
       const coords = {x,y};
-      console.log(coords);
     };
 
     window.addEventListener('mousemove', onMouseMove);
